@@ -17,3 +17,5 @@ aur:
   - virtualbox-host-modules-mainline
   - virtualbox-guest-modules-mainline
   - bbswitch-mainline
+  # xwayland
+  - xorg-server-xwayland-git

@@ -12,6 +12,7 @@ aur:
   - profile-sync-daemon
   - gtk3-optional-csd
   - jdk
+  - chromium-dev
   # mainline linx
   - linux-mainline
   - virtualbox-host-modules-mainline

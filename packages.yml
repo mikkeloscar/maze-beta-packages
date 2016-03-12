@@ -13,6 +13,7 @@ aur:
   - gtk3-optional-csd
   - jdk
   # - chromium-dev
+  - pulseaudio-raop2
   # mainline linx
   - linux-mainline
   - virtualbox-host-modules-mainline

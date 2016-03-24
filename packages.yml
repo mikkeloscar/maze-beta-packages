@@ -12,6 +12,7 @@ aur:
   - profile-sync-daemon
   - gtk3-optional-csd
   - jdk
+  - gtk-theme-arc
   # - chromium-dev
   - pulseaudio-raop2
   # mainline linx

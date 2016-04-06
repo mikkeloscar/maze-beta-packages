@@ -21,4 +21,4 @@ aur:
   - virtualbox-guest-modules-mainline
   - bbswitch-mainline
   # xwayland
-  - xorg-server-xwayland-git
+  # - xorg-server-xwayland-git

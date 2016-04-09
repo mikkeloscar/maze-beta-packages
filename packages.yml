@@ -22,3 +22,5 @@ aur:
   - bbswitch-mainline
   # xwayland
   # - xorg-server-xwayland-git
+  # rust-nightly
+  - rust-nightly

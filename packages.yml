@@ -13,6 +13,7 @@ aur:
   - gtk3-optional-csd
   - jdk
   - gtk-theme-arc
+  - gtk-theme-arc-git
   # - chromium-dev
   - pulseaudio-raop2
   # mainline linx

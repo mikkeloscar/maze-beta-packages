@@ -29,6 +29,7 @@ aur:
   - android-sdk
   - android-sdk-build-tools
   - android-sdk-platform-tools
+  - android-ndk
   - android-support-repository
   - android-google-apis
   - android-google-repository

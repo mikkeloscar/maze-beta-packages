@@ -14,6 +14,9 @@ aur:
   - jdk
   - gtk-theme-arc
   - gtk-theme-arc-git
+  - arc-icon-theme
+  - arc-icon-theme-git
+  - moka-icon-theme-git
   # - chromium-dev
   - pulseaudio-raop2
   # mainline linx

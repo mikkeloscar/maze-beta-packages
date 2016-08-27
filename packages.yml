@@ -40,3 +40,4 @@ aur:
   - android-sources
   - elm-platform
   - kubernetes
+  - google-cloud-sdk

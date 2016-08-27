@@ -39,3 +39,4 @@ aur:
   - android-studio
   - android-sources
   - elm-platform
+  - kubernetes

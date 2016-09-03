@@ -41,3 +41,4 @@ aur:
   - elm-platform
   - kubernetes
   - google-cloud-sdk
+  - leiningen

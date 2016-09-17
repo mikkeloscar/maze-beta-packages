@@ -39,6 +39,7 @@ aur:
   - android-studio
   - android-sources
   - elm-platform
-  - kubernetes
+  # - kubernetes
   - google-cloud-sdk
   - leiningen
+  - hipchat

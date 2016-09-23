@@ -43,3 +43,4 @@ aur:
   # - google-cloud-sdk
   - leiningen
   - hipchat
+  - python-grip-git

@@ -1,9 +1,8 @@
-publish:
+pipeline:
   maze-build:
     image: mikkeloscar/maze-build
     repo: https://beta.maze-ci.org/mikkeloscar/maze
 
-publish:
   maze-publish:
     image: mikkeloscar/maze-publish
     url: https://beta.maze-ci.org

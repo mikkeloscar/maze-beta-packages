@@ -19,10 +19,10 @@ aur:
   - moka-icon-theme-git
   # - chromium-dev
   - pulseaudio-raop2
-  # mainline linx
+  # mainline linux
   - linux-mainline
-  - virtualbox-host-modules-mainline
-  - virtualbox-guest-modules-mainline
+  #- virtualbox-host-modules-mainline
+  #- virtualbox-guest-modules-mainline
   - bbswitch-mainline
   # xwayland
   # - xorg-server-xwayland-git

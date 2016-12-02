@@ -47,3 +47,4 @@ aur:
   - visual-studio-code
   - google-cloud-sdk
   - yarn
+  - minikube

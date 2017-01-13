@@ -20,7 +20,7 @@ aur:
   # - chromium-dev
   - pulseaudio-raop2
   # mainline linux
-  - linux-mainline
+  #- linux-mainline
   #- virtualbox-host-modules-mainline
   #- virtualbox-guest-modules-mainline
   - bbswitch-mainline

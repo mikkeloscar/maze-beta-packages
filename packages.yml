@@ -49,6 +49,6 @@ aur:
   - yarn
   - minikube
   - skype
-  - browserpass-git
+  # - browserpass-git
   - pulseaudio-ctl
   - ttf-font-awesome

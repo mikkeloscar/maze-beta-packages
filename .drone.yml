@@ -7,4 +7,4 @@ pipeline:
     image: mikkeloscar/maze-publish
     url: https://beta.maze-ci.org
     repo: mikkeloscar/maze
-    auth_token: $$AUTH_TOKEN
+    auth_token: ${MAZE_TOKEN}

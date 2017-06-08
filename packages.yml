@@ -7,7 +7,7 @@ aur:
   - xdg-utils-mimeo
   - mimeo
   - dropbox
-  - chromium-pepper-flash
+  - pepper-flash
   - chromium-widevine
   - profile-sync-daemon
   - gtk3-optional-csd

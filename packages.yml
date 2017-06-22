@@ -40,12 +40,12 @@ aur:
   - android-sources
   - elm-platform
   # - kubernetes
-  # - google-cloud-sdk
   - leiningen
   - hipchat
   - python-grip-git
   - visual-studio-code
   - google-cloud-sdk
+  - kubectl-bin
   - yarn
   - minikube
   - skype

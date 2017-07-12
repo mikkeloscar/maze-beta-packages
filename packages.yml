@@ -18,7 +18,7 @@ aur:
   - arc-icon-theme-git
   - moka-icon-theme-git
   # - chromium-dev
-  - pulseaudio-raop2
+  # - pulseaudio-raop2
   # mainline linux
   #- linux-mainline
   #- virtualbox-host-modules-mainline

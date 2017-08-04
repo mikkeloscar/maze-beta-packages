@@ -52,3 +52,24 @@ aur:
   # - browserpass-git
   - pulseaudio-ctl
   - ttf-font-awesome
+  # qt5 git
+  - pyqt5-common-git
+  - python-pyqt5-git
+  - python2-pyqt5-git
+  - qt5-base-git
+  - qt5-declarative-git
+  - qt5-location-git
+  - qt5-multimedia-git
+  - qt5-quickcontrols-git
+  - qt5-quickcontrols2-git
+  - qt5-script-git
+  - qt5-sensors-git
+  - qt5-speech-git
+  - qt5-svg-git
+  - qt5-tools-git
+  - qt5-wayland-git
+  - qt5-webchannel-git
+  - qt5-webengine-git
+  - qt5-webkit-git
+  - qt5-x11extras-git
+  - qt5-xmlpatterns-git

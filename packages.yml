@@ -48,7 +48,7 @@ aur:
   - kubectl-bin
   - yarn
   - minikube
-  - skype
+  # - skype
   # - browserpass-git
   - pulseaudio-ctl
   - ttf-font-awesome

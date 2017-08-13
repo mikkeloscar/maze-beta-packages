@@ -74,3 +74,4 @@ aur:
   # - qt5-x11extras-git
   # - qt5-xmlpatterns-git
   - python-jenkinsapi
+  - upspin-git

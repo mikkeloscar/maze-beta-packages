@@ -17,7 +17,8 @@ sudo chown 1000:1000 -R build
             --repo $REPO \
             --origin aur \
             --package $pkg \
-            --upload
+            --upload \
+            --ping
         # clean build dir
         sudo rm -rf build/*
     done

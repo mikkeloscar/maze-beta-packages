@@ -12,7 +12,7 @@ sudo chown 1000:1000 -R build
 
     for pkg in $aur_pkgs; do
         echo "=== $pkg ==="
-        docker run --net=host --rm -it -v "$(pwd)/build:/build" -w "/build" \
+        travis_wait 60 docker run --net=host --rm -it -v "$(pwd)/build:/build" -w "/build" \
             --user $UGNAME:$UGNAME mikkeloscar/maze-build-travis:latest \
             --repo $REPO \
             --origin aur \

@@ -9,7 +9,9 @@ REPO="https://beta.maze-ci.org/mikkeloscar/maze"
     ls -la
     pwd
     mkdir -p build
-    chown 1000:1000 -R build 
+    sudo chown 1000:1000 -R build 
+    ls -la
+    pwd
 
     # for pkg in $aur_pkgs; do
     #     docker run --net=host --rm -it -v "$(pwd)/build:/build" -w "/build" \

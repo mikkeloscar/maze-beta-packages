@@ -13,12 +13,12 @@ REPO="https://beta.maze-ci.org/mikkeloscar/maze"
     ls -la
     pwd
 
-    # for pkg in $aur_pkgs; do
-    #     docker run --net=host --rm -it -v "$(pwd)/build:/build" -w "/build" \
-    #         --user $UGNAME:$UGNAME mikkeloscar/maze-build-travis:latest \
-    #         --repo $REPO \
-    #         --origin aur \
-    #         --package $pkg \
-    #         --upload
-    # done
+    for pkg in $aur_pkgs; do
+        docker run --net=host --rm -it -v "$(pwd)/build:/build" -w "/build" \
+            --user $UGNAME:$UGNAME mikkeloscar/maze-build-travis:latest \
+            --repo $REPO \
+            --origin aur \
+            --package $pkg \
+            --upload
+    done
 # fi

@@ -18,7 +18,8 @@ sudo chown 1000:1000 -R build
             --origin aur \
             --package $pkg \
             --upload \
-            --ping
+            --ping \
+            --token=$TOKEN
         # clean build dir
         sudo rm -rf build/*
     done

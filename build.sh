@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 UGNAME="builder"
 REPO="https://beta.maze-ci.org/mikkeloscar/maze"
 

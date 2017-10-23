@@ -76,3 +76,4 @@ aur:
   - python-jenkinsapi
   - upspin-git
   - fd
+  - dep

@@ -7,7 +7,6 @@ aur:
   - xdg-utils-mimeo
   - mimeo
   - dropbox
-  - pepper-flash
   - chromium-widevine
   - profile-sync-daemon
   - gtk3-optional-csd
@@ -76,3 +75,4 @@ aur:
   - python-jenkinsapi
   - upspin-git
   - fd
+  - dep

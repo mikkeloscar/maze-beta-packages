@@ -76,3 +76,4 @@ aur:
   - upspin-git
   - fd
   - dep
+  - minikube-bin

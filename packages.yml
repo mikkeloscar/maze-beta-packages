@@ -74,6 +74,6 @@ aur:
   # - qt5-xmlpatterns-git
   - python-jenkinsapi
   - upspin-git
-  - fd
+  - fd-rs-git
   - dep
   - minikube-bin

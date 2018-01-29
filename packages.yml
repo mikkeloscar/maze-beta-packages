@@ -76,3 +76,5 @@ aur:
   - upspin-git
   - fd
   - dep
+  - mkdocs
+  - mkdocs-material

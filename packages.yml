@@ -1,5 +1,6 @@
 aur:
   - sway-git
+  - wlroots-git
   - scaleway-cli
   - cower
   - pacaur

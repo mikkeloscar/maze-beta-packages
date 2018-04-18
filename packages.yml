@@ -77,3 +77,5 @@ aur:
   - upspin-git
   - dep
   - minikube-bin
+  - mkdocs
+  - mkdocs-material

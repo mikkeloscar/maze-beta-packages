@@ -79,3 +79,4 @@ aur:
   - minikube-bin
   - mkdocs
   - mkdocs-material
+  - stern-bin

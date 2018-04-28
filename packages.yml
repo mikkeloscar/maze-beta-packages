@@ -81,3 +81,5 @@ aur:
   - mkdocs-material
   - stern-bin
   - ruby-travis
+  # needed by ruby-travis
+  - ruby-connection_pool

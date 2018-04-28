@@ -80,3 +80,4 @@ aur:
   - mkdocs
   - mkdocs-material
   - stern-bin
+  - ruby-travis

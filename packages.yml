@@ -43,7 +43,7 @@ aur:
   - leiningen
   - hipchat
   - python-grip-git
-  - visual-studio-code
+  - visual-studio-code-bin
   - google-cloud-sdk
   - kubectl-bin
   - yarn

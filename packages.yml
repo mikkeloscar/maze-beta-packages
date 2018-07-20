@@ -75,7 +75,6 @@ aur:
   # - qt5-xmlpatterns-git
   - python-jenkinsapi
   - upspin-git
-  - dep
   - minikube-bin
   - mkdocs
   - mkdocs-material

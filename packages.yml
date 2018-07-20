@@ -51,7 +51,6 @@ aur:
   # - skype
   # - browserpass-git
   - pulseaudio-ctl
-  - ttf-font-awesome
   # qt5 git
   # - pyqt5-common-git
   # - python-pyqt5-git

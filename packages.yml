@@ -46,7 +46,6 @@ aur:
   - visual-studio-code-bin
   - google-cloud-sdk
   - kubectl-bin
-  - yarn
   - minikube
   # - skype
   # - browserpass-git

@@ -81,4 +81,3 @@ aur:
   # needed by ruby-travis
   - ruby-connection_pool
   - vegeta
-  - alacritty-scrollback-git

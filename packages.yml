@@ -1,84 +1,86 @@
 aur:
-  - sway-git
-  - wlroots-git
-  - scaleway-cli
-  - pacaur
-  - virtualbox-ext-oracle
-  - xdg-utils-mimeo
-  - mimeo
-  - dropbox
-  - chromium-widevine
-  - profile-sync-daemon
-  - gtk3-optional-csd
-  - jdk
-  - gtk-theme-arc
-  - gtk-theme-arc-git
-  - arc-icon-theme
-  - arc-icon-theme-git
-  - moka-icon-theme-git
-  # - chromium-dev
-  # - pulseaudio-raop2
-  # mainline linux
-  #- linux-mainline
-  #- virtualbox-host-modules-mainline
-  #- virtualbox-guest-modules-mainline
-  # - bbswitch-mainline
-  # xwayland
-  # - xorg-server-xwayland-git
-  # rust-nightly
-  #- rust-nightly
-  # android
-  - android-sdk
-  - android-sdk-build-tools
-  - android-sdk-platform-tools
-  - android-ndk
-  - android-support-repository
-  - android-google-apis
-  - android-google-repository
-  - android-studio
-  - android-sources
-  # - elm-platform
-  # - kubernetes
-  - leiningen
-  - hipchat
-  - python-grip-git
-  - visual-studio-code-bin
-  - google-cloud-sdk
-  - kubectl-bin
-  - minikube
-  # - skype
-  # - browserpass-git
-  - pulseaudio-ctl
-  # qt5 git
-  # - pyqt5-common-git
-  # - python-pyqt5-git
-  # - python2-pyqt5-git
-  # - qt5-base-git
-  # - qt5-declarative-git
-  # - qt5-location-git
-  # - qt5-multimedia-git
-  # - qt5-quickcontrols-git
-  # - qt5-quickcontrols2-git
-  # - qt5-script-git
-  # - qt5-sensors-git
-  # - qt5-speech-git
-  # - qt5-svg-git
-  # - qt5-tools-git
-  # - qt5-wayland-git
-  # - qt5-webchannel-git
-  # - qt5-webengine-git
-  # - qt5-webkit-git
-  # - qt5-x11extras-git
-  # - qt5-xmlpatterns-git
-  - python-jenkinsapi
-  - upspin-git
-  - minikube-bin
-  - mkdocs
-  - mkdocs-material
-  - stern-bin
-  - ruby-travis
-  # needed by ruby-travis
-  - ruby-connection_pool
-  - vegeta
-  - zoom
-  - eksctl
+- name: sway-git
+- name: wlroots-git
+- name: scaleway-cli
+- name: pacaur
+- name: virtualbox-ext-oracle
+- name: xdg-utils-mimeo
+- name: mimeo
+- name: dropbox
+  signing_keys:
+  - "FC918B335044912E"
+- name: chromium-widevine
+- name: profile-sync-daemon
+- name: gtk3-optional-csd
+- name: jdk
+- name: gtk-theme-arc
+- name: gtk-theme-arc-git
+- name: arc-icon-theme
+- name: arc-icon-theme-git
+- name: moka-icon-theme-git
+# - chromium-dev
+# - pulseaudio-raop2
+# mainline linux
+#- linux-mainline
+#- virtualbox-host-modules-mainline
+#- virtualbox-guest-modules-mainline
+# - bbswitch-mainline
+# xwayland
+# - xorg-server-xwayland-git
+# rust-nightly
+#- rust-nightly
+# android
+- name: android-sdk
+- name: android-sdk-build-tools
+- name: android-sdk-platform-tools
+- name: android-ndk
+- name: android-support-repository
+- name: android-google-apis
+- name: android-google-repository
+- name: android-studio
+- name: android-sources
+# - elm-platform
+# - kubernetes
+- name: leiningen
+- name: hipchat
+- name: python-grip-git
+- name: visual-studio-code-bin
+- name: google-cloud-sdk
+- name: kubectl-bin
+- name: minikube
+# - skype
+# - browserpass-git
+- name: pulseaudio-ctl
+# qt5 git
+# - pyqt5-common-git
+# - python-pyqt5-git
+# - python2-pyqt5-git
+# - qt5-base-git
+# - qt5-declarative-git
+# - qt5-location-git
+# - qt5-multimedia-git
+# - qt5-quickcontrols-git
+# - qt5-quickcontrols2-git
+# - qt5-script-git
+# - qt5-sensors-git
+# - qt5-speech-git
+# - qt5-svg-git
+# - qt5-tools-git
+# - qt5-wayland-git
+# - qt5-webchannel-git
+# - qt5-webengine-git
+# - qt5-webkit-git
+# - qt5-x11extras-git
+# - qt5-xmlpatterns-git
+- name: python-jenkinsapi
+- name: upspin-git
+- name: minikube-bin
+- name: mkdocs
+- name: mkdocs-material
+- name: stern-bin
+- name: ruby-travis
+# needed by ruby-travis
+- name: ruby-connection_pool
+- name: vegeta
+- name: zoom
+- name: eksctl

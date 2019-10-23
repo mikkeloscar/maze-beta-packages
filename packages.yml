@@ -2,7 +2,6 @@ aur:
   - sway-git
   - wlroots-git
   - scaleway-cli
-  - cower
   - pacaur
   - virtualbox-ext-oracle
   - xdg-utils-mimeo

@@ -29,12 +29,12 @@ packages["aur"].each { |package|
     "--token", ENV["TOKEN"],
   ]
 
-  # if package.key?("signing_keys")
-  #   package["signing_keys"].each { |key|
-  #     args.push("--signing-key")
-  #     args.push(key)
-  #   }
-  # end
+  if package.key?("signing_keys")
+    package["signing_keys"].each { |key|
+      args.push("--signing-key")
+      args.push(key)
+    }
+  end
 
   system("docker", *args)
 

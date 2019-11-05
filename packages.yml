@@ -84,3 +84,4 @@ aur:
 - name: vegeta
 - name: zoom
 - name: eksctl
+- name: python-i3-py

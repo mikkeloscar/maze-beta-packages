@@ -42,7 +42,6 @@ aur:
 # - elm-platform
 # - kubernetes
 - name: leiningen
-- name: hipchat
 - name: python-grip-git
 - name: visual-studio-code-bin
 - name: google-cloud-sdk

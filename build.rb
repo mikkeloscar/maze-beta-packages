@@ -39,5 +39,5 @@ packages["aur"].each { |package|
   system("docker", *args)
 
   # clean build dir
-  system("sudo", "rm", "-rf", "build/*")
+  system("sudo rm -rf build/*")
 }

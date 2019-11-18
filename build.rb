@@ -40,5 +40,5 @@ packages["aur"].each { |package|
 
   # clean build dir
   system("sudo", "rm", "-rf", "#{Dir.getwd}/build/sources")
-  system("sudo", "ls", "-l", "build/")
+  system("sudo", "rm", "-rf", "#{Dir.getwd}/build/repo")
 }

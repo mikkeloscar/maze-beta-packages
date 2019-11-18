@@ -39,6 +39,6 @@ packages["aur"].each { |package|
   system("docker", *args)
 
   # clean build dir
-  system("sudo", "rm", "-rf", "build/sources")
-  system("ls", "-l", "build/")
+  system("sudo", "rm", "-rf", "#{Dir.getwd}/build/sources")
+  system("sudo", "ls", "-l", "build/")
 }

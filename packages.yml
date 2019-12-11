@@ -80,7 +80,6 @@ aur:
 - name: ruby-travis
 # needed by ruby-travis
 - name: ruby-connection_pool
-- name: vegeta
 - name: zoom
 - name: eksctl
 - name: python-i3-py

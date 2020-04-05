@@ -83,3 +83,4 @@ aur:
 - name: zoom
 - name: eksctl
 - name: python-i3-py
+- name: github-cli

@@ -71,7 +71,6 @@ aur:
 # - qt5-webkit-git
 # - qt5-x11extras-git
 # - qt5-xmlpatterns-git
-- name: python-jenkinsapi
 - name: upspin-git
 - name: minikube-bin
 - name: mkdocs

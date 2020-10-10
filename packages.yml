@@ -84,3 +84,5 @@ aur:
 - name: eksctl
 - name: python-i3-py
 - name: github-cli
+# kubernetes
+- name: cni-plugins-bin

@@ -86,3 +86,4 @@ aur:
 # kubernetes
 - name: cni-plugins-bin
 - name: obs-v4l2sink
+- name: aws-sam-cli

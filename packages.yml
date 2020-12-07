@@ -86,3 +86,4 @@ aur:
 - name: cni-plugins-bin
 - name: obs-v4l2sink
 - name: aws-sam-cli
+- name: aws-cli-v2

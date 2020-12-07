@@ -82,7 +82,6 @@ aur:
 - name: zoom
 - name: eksctl
 - name: python-i3-py
-- name: github-cli
 # kubernetes
 - name: cni-plugins-bin
 - name: obs-v4l2sink

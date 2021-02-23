@@ -1,0 +1,162 @@
+on: [push,pull_request]
+jobs:
+  build_packages:
+    runs-on: ubuntu-latest
+    name: Build Maze Packages
+    steps:
+    - name: build
+      id: build
+      uses: mikkeloscar/maze-action@master
+      with:
+        repo: "https://beta.maze-ci.org/mikkeloscar/maze"
+        token: "x"
+        # token: ${{ secrets.MAZE_TOKEN }}
+        packages: |
+          {
+            "aur": [
+              {
+                "name": "sway-git"
+              },
+              {
+                "name": "wlroots-git"
+              },
+              {
+                "name": "scaleway-cli"
+              },
+              {
+                "name": "pacaur"
+              },
+              {
+                "name": "virtualbox-ext-oracle"
+              },
+              {
+                "name": "xdg-utils-mimeo"
+              },
+              {
+                "name": "mimeo"
+              },
+              {
+                "name": "dropbox",
+                "signing_keys": [
+                  "FC918B335044912E"
+                ]
+              },
+              {
+                "name": "chromium-widevine"
+              },
+              {
+                "name": "profile-sync-daemon"
+              },
+              {
+                "name": "gtk3-optional-csd"
+              },
+              {
+                "name": "jdk"
+              },
+              {
+                "name": "gtk-theme-arc"
+              },
+              {
+                "name": "gtk-theme-arc-git"
+              },
+              {
+                "name": "arc-icon-theme"
+              },
+              {
+                "name": "arc-icon-theme-git"
+              },
+              {
+                "name": "moka-icon-theme-git"
+              },
+              {
+                "name": "android-sdk"
+              },
+              {
+                "name": "android-sdk-build-tools"
+              },
+              {
+                "name": "android-sdk-platform-tools"
+              },
+              {
+                "name": "android-ndk"
+              },
+              {
+                "name": "android-support-repository"
+              },
+              {
+                "name": "android-google-apis"
+              },
+              {
+                "name": "android-google-repository"
+              },
+              {
+                "name": "android-studio"
+              },
+              {
+                "name": "android-sources"
+              },
+              {
+                "name": "leiningen"
+              },
+              {
+                "name": "python-grip-git"
+              },
+              {
+                "name": "visual-studio-code-bin"
+              },
+              {
+                "name": "google-cloud-sdk"
+              },
+              {
+                "name": "kubectl-bin"
+              },
+              {
+                "name": "minikube"
+              },
+              {
+                "name": "pulseaudio-ctl"
+              },
+              {
+                "name": "upspin-git"
+              },
+              {
+                "name": "minikube-bin"
+              },
+              {
+                "name": "mkdocs"
+              },
+              {
+                "name": "mkdocs-material"
+              },
+              {
+                "name": "stern-bin"
+              },
+              {
+                "name": "ruby-travis"
+              },
+              {
+                "name": "ruby-connection_pool"
+              },
+              {
+                "name": "zoom"
+              },
+              {
+                "name": "eksctl"
+              },
+              {
+                "name": "python-i3-py"
+              },
+              {
+                "name": "cni-plugins-bin"
+              },
+              {
+                "name": "obs-v4l2sink"
+              },
+              {
+                "name": "aws-sam-cli"
+              },
+              {
+                "name": "aws-cli-v2"
+              }
+            ]
+          }

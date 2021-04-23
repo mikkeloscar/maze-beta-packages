@@ -157,6 +157,9 @@ jobs:
               },
               {
                 "name": "aws-cli-v2"
+              },
+              {
+                "name": "kubelogin"
               }
             ]
           }

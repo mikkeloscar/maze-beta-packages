@@ -20,7 +20,7 @@ packages["aur"].each { |package|
     "-v", "#{Dir.getwd}/build:/build",
     "-w", "/build",
     "--user", "#{$UGNAME}:#{$UGNAME}",
-    "mikkeloscar/maze-build-travis:latest",
+    "mikkeloscar/maze-build-gha:latest",
     "--repo", $REPO,
     "--origin", "aur",
     "--package", package["name"],
